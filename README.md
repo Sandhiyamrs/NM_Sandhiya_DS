@@ -1,11 +1,13 @@
 # NM_Sandhiya_DS
 "Decoding emotions through sentiment analysis of social media conversations"
 
-# 📊 Emotion Detection from Social Media Posts
+# 📊 Emotion Detection from Social Media Posts using NLP & Machine Learning
 
 ## 🔍 Overview
 
-This project analyzes social media text (tweets/posts) and identifies emotions such as **joy, anger, sadness, fear, surprise, and neutral** using **NLP and Machine Learning/Deep Learning models**. The goal is to extract emotional insights from large amounts of unstructured social media data.
+This project focuses on analyzing social media text data (such as tweets or posts) to automatically detect human emotions. Using Natural Language Processing (NLP) and Machine Learning / Deep Learning models, the system classifies text into emotions like Joy, Anger, Sadness, Fear, Surprise, and Neutral.
+
+The aim is to extract meaningful emotional insights from large volumes of unstructured social media data, which can be useful for understanding public opinion, mental health trends, and user sentiment.
 
 ---
 
@@ -53,23 +55,52 @@ This project analyzes social media text (tweets/posts) and identifies emotions s
 
 ---
 
-## 📈 EDA Insights
+## 📈 Exploratory Data Analysis (EDA)
 
-* Joy and neutral posts were most common
-* Angry and sad posts often had more uppercase letters and exclamation marks
-* Word clouds and frequency charts were created
+Key insights obtained:
+* Joy and Neutral emotions appeared most frequently
+* Anger and Sadness posts showed higher usage of uppercase letters and exclamation marks
+* Emotion-wise word clouds and frequency plots were generated
 
 ---
 
-## 🤖 Models Used
+## 🤖 Models Implemented
 
 * Naive Bayes
 * Logistic Regression
-* SVM
+* Support Vector Machine (SVM)
 * Random Forest
 * LSTM / Bi-LSTM
-* BERT
+* BERT (Transformer-based model)
 
-**Evaluation:** Accuracy, precision, recall, F1 score, confusion matrix
+## 📊 Evaluation Metrics
+
+* Accuracy
+* Precision
+* F1-score
+* Confusion Matrix
+
+---
+
+## 🚀 How to Run the Project
+
+* pip install -r requirements.txt
+* python sentiment_emotion_analysis.py
+
+---
+
+## 📌 Applications
+
+* Social media monitoring
+* Mental health analysis
+* Public onpinion tracking
+* Customer fdeedback analysis
+
+---
+
+## 👩‍💻 Author
+
+Sandy
+Data Science & Machine Learning Enthusiast
 
 ---
