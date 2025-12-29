@@ -100,7 +100,7 @@ Key insights obtained:
 
 ## 👩‍💻 Author
 
-Sandy
+Sandhiya
 Data Science & Machine Learning Enthusiast
 
 ---
